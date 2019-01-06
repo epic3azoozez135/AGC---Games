@@ -460,17 +460,17 @@ client.on("message", message => {
      .setDescription(`
 ══════════ஜ۩۞۩ஜ════════════  
      🎮「العاب」🎮
-   🎮v!فكك
-   🎮v!لغز
-   🎮v!كتابه
-   🎮v!رياضيات
-   🎮v!ركب
-   🎮v!xo
-   🎮v!نقاطي
-   🎮v!top
+   🎮$فكك
+   🎮$لغز
+   🎮$كتابه
+   🎮$رياضيات
+   🎮$ركب
+   🎮$xo
+   🎮$نقاطي
+   🎮$top
 ══════════ஜ۩۞۩ஜ════════════ 
  `)
- .setFooter(`by :Mrkayan`)
+ .setFooter(`by :AGC`)
    message.channel.sendEmbed(embed)
    
    }
@@ -541,7 +541,7 @@ client.on('message' , message => {
  });  
 
 client.on("message", function(message) {
-    var prefix = "v!";
+    var prefix = "$";
    if(message.content.startsWith(prefix + "rps")) {
     let messageArgs = message.content.split(" ").slice(1).join(" ");
     let messageRPS = message.content.split(" ").slice(2).join(" ");
@@ -580,7 +580,7 @@ reaction3.on("collect", r => {
     })
 }
 });
-const devs = ["378909031672184844"]
+const devs = ["510829335519821825"]
 
 const adminprefix = "v!";
 client.on('message', message => {
